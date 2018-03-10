@@ -29,6 +29,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         myimage.image = pickedImage
     }
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        // This will dismiss the controller
         dismiss(animated: true, completion: nil)
     }
 
