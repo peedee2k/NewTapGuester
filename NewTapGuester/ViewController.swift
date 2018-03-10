@@ -15,6 +15,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Some notes are added in ViewDidLoad Method
+        
        picker.delegate = self
        picker.sourceType = .photoLibrary
         
