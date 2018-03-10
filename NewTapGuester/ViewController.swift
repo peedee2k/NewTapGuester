@@ -30,6 +30,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         // This will dismiss the controller
+        // Another line has been added 
         dismiss(animated: true, completion: nil)
     }
 
